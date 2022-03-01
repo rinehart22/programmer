@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block go %} 
+
+<form action='' method='POST' enctype="multipart/form-data"> 
+     {% csrf_token %} 
+
+     {{form.as_p}}
+
+
+
+</form>
+
+
+
+
+
+
+{% endblock go%}

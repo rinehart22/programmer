@@ -1,0 +1,1 @@
+web: gunicorn healthcare.wsgi --log-file - --log-level debug

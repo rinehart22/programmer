@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block go %} 
+<form action='' method='POST'> 
+     {% csrf_token %} 
+
+     {{form.as_p}} 
+     <input class="btn login_btn bg-info" type="submit" value="postnow">
+
+</form>
+
+
+
+
+
+{% endblock go %}
