@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-nv!z#_en+uoe7ha#y&38zv!uly%mk0(5kv6fs^$)n26e+(mm!h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -131,5 +131,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 MEDIA_URL = '/album/' 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'album')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'pics')
 

@@ -8,6 +8,6 @@ class programmer(models.Model):
     tools = models.CharField(default= '0',max_length=80)
      
    
-    images = models.ImageField(blank= True, null= True, upload_to= "pics/")
+    images = models.ImageField(blank= True, null= True, upload_to= "album/")
     def __str__(self):
         return self.Name
